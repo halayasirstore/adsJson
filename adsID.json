@@ -7,44 +7,36 @@
   },
   
   "ads_enabled": true,
-  "ads_test_mode": false,
+  "ads_test_mode": true,
   
   "ad_networks": {
     "admob": {
       "enabled": true,
       "priority": 1,
       "app_id": "ca-app-pub-3940256099942544~3347511713",
-      "banner_ad_unit_id": "ca-app-pub-3940256099942544/6300978111",
       "interstitial_ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
-      "rewarded_ad_unit_id": "ca-app-pub-3940256099942544/5224354917",
-      "native_ad_unit_id": "ca-app-pub-3940256099942544/2247696110",
-      "app_open_ad_unit_id": "ca-app-pub-3940256099942544/3419835294"
+      "rewarded_ad_unit_id": "ca-app-pub-3940256099942544/5224354917"
     },
     
     "facebook": {
       "enabled": true,
       "priority": 2,
-      "banner_placement_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
       "interstitial_placement_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
-      "rewarded_placement_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
-      "native_placement_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"
+      "rewarded_placement_id": "VID_HD_16_9_46S_APP_INSTALL#YOUR_PLACEMENT_ID"
     },
     
     "applovin": {
       "enabled": true,
       "priority": 3,
       "sdk_key": "YOUR_APPLOVIN_SDK_KEY",
-      "banner_zone_id": "YOUR_BANNER_ZONE_ID",
       "interstitial_zone_id": "YOUR_INTERSTITIAL_ZONE_ID",
-      "rewarded_zone_id": "YOUR_REWARDED_ZONE_ID",
-      "native_zone_id": "YOUR_NATIVE_ZONE_ID"
+      "rewarded_zone_id": "YOUR_REWARDED_ZONE_ID"
     },
     
     "unity": {
       "enabled": true,
       "priority": 4,
       "game_id": "YOUR_UNITY_GAME_ID",
-      "banner_placement_id": "banner",
       "interstitial_placement_id": "interstitial",
       "rewarded_placement_id": "rewardedVideo"
     },
@@ -53,27 +45,16 @@
       "enabled": false,
       "priority": 5,
       "app_id": "YOUR_HUAWEI_APP_ID",
-      "banner_ad_unit_id": "testy9cjkgl3o3d",
       "interstitial_ad_unit_id": "testb4znbuh3n2",
-      "rewarded_ad_unit_id": "testx9dtjwj8hp",
-      "native_ad_unit_id": "testy63txaom86"
+      "rewarded_ad_unit_id": "testx9dtjwj8hp"
     }
   },
   
   "ad_placement_config": {
-    "banner_ads": {
-      "enabled": true,
-      "refresh_rate": 30,
-      "position": "bottom",
-      "networks": ["admob", "facebook", "applovin", "unity", "huawei"]
-    },
-    
     "interstitial_ads": {
       "enabled": true,
+      "show_on_level_click": true,
       "show_interval": 120,
-      "show_on_story_complete": true,
-      "show_on_level_complete": true,
-      "show_on_app_open": false,
       "networks": ["admob", "facebook", "applovin", "unity", "huawei"]
     },
     
@@ -82,47 +63,12 @@
       "reward_type": "coins",
       "reward_amount": 10,
       "placement_points": {
-        "after_quiz": true,
-        "daily_bonus": true,
         "extra_life": true,
-        "skip_waiting": true
+        "skip_waiting": true,
+        "bonus_content": true
       },
       "networks": ["admob", "facebook", "applovin", "unity", "huawei"]
-    },
-    
-    "native_ads": {
-      "enabled": true,
-      "show_in_home": true,
-      "show_in_stories_list": true,
-      "show_in_settings": false,
-      "networks": ["admob", "facebook", "applovin", "huawei"]
-    },
-    
-    "app_open_ads": {
-      "enabled": false,
-      "show_on_app_launch": true,
-      "show_on_app_resume": true,
-      "minimum_time_interval": 30,
-      "networks": ["admob"]
     }
-  },
-  
-  "ad_frequency": {
-    "interstitial_interval_seconds": 120,
-    "max_interstitial_per_hour": 4,
-    "max_interstitial_per_session": 8,
-    "rewarded_cooldown_minutes": 5,
-    "native_ad_refresh_seconds": 60
-  },
-  
-  "targeting": {
-    "user_consent": true,
-    "child_directed": false,
-    "under_age_of_consent": false,
-    "test_devices": [
-      "TEST_DEVICE_ID_1",
-      "TEST_DEVICE_ID_2"
-    ]
   },
   
   "fallback_strategy": {
@@ -130,12 +76,5 @@
     "timeout_seconds": 10,
     "retry_attempts": 2,
     "fallback_order": ["admob", "facebook", "applovin", "unity", "huawei"]
-  },
-  
-  "analytics": {
-    "track_ad_impressions": true,
-    "track_ad_clicks": true,
-    "track_ad_revenue": true,
-    "track_ad_errors": true
   }
 }
