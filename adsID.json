@@ -1,80 +1,42 @@
 {
-  "app_config": {
-    "app_name": "English Learning App",
-    "app_version": "1.0.0",
-    "config_version": "1",
-    "last_updated": "2024-01-15T10:00:00Z"
-  },
-  
   "ads_enabled": true,
   "ads_test_mode": true,
-  
   "ad_networks": {
     "admob": {
       "enabled": true,
-      "priority": 1,
-      "app_id": "ca-app-pub-3940256099942544~3347511713",
       "interstitial_ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
       "rewarded_ad_unit_id": "ca-app-pub-3940256099942544/5224354917"
     },
-    
     "facebook": {
       "enabled": true,
-      "priority": 2,
       "interstitial_placement_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
       "rewarded_placement_id": "VID_HD_16_9_46S_APP_INSTALL#YOUR_PLACEMENT_ID"
     },
-    
     "applovin": {
       "enabled": true,
-      "priority": 3,
-      "sdk_key": "YOUR_APPLOVIN_SDK_KEY",
       "interstitial_zone_id": "YOUR_INTERSTITIAL_ZONE_ID",
       "rewarded_zone_id": "YOUR_REWARDED_ZONE_ID"
     },
-    
     "unity": {
-      "enabled": true,
-      "priority": 4,
+      "enabled": false,
       "game_id": "YOUR_UNITY_GAME_ID",
       "interstitial_placement_id": "interstitial",
       "rewarded_placement_id": "rewardedVideo"
     },
-    
     "huawei": {
       "enabled": false,
-      "priority": 5,
-      "app_id": "YOUR_HUAWEI_APP_ID",
       "interstitial_ad_unit_id": "testb4znbuh3n2",
       "rewarded_ad_unit_id": "testx9dtjwj8hp"
     }
   },
-  
   "ad_placement_config": {
     "interstitial_ads": {
       "enabled": true,
-      "show_on_level_click": true,
-      "show_interval": 120,
-      "networks": ["admob", "facebook", "applovin", "unity", "huawei"]
+      "show_on_level_click": true
     },
-    
     "rewarded_ads": {
       "enabled": true,
-      "reward_type": "coins",
-      "reward_amount": 10,
-      "placement_points": {
-        "extra_life": true,
-        "skip_waiting": true,
-        "bonus_content": true
-      },
-      "networks": ["admob", "facebook", "applovin", "unity", "huawei"]
+      "show_for_extra_life": true
     }
-  },
-  
-  "fallback_strategy": {
-    "enabled": true,
-    "timeout_seconds": 10,
-    "retry_attempts": 2,
-    "fallback_order": ["admob", "facebook", "applovin", "unity", "huawei"]
   }
 }
