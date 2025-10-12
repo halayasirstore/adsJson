@@ -1,22 +1,11 @@
 {
-  "admob": {
-    "enabled": true,
-    "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
-    "rewarded_id": "ca-app-pub-3940256099942544/5224354917"
-  },
-  "facebook": {
-    "enabled": true,
-    "interstitial_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
-    "rewarded_id": "YOUR_PLACEMENT_ID"
-  },
-  "applovin": {
-    "enabled": true,
-    "interstitial_id": "YOUR_INTERSTITIAL_AD_UNIT_ID",
-    "rewarded_id": "YOUR_REWARDED_AD_UNIT_ID"
-  },
-  "huawei": {
-    "enabled": true,
-    "interstitial_id": "testx9dtjwj8hp",
-    "rewarded_id": "testx9dtjwj8hp"
-  }
+  "enabled": true,
+  "admob_interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+  "admob_rewarded_id": "ca-app-pub-3940256099942544/5224354917",
+  "facebook_interstitial_id": "YOUR_FACEBOOK_INTERSTITIAL",
+  "facebook_rewarded_id": "YOUR_FACEBOOK_REWARDED", 
+  "huawei_interstitial_id": "YOUR_HUAWEI_INTERSTITIAL",
+  "huawei_rewarded_id": "YOUR_HUAWEI_REWARDED",
+  "applovin_interstitial_id": "YOUR_APPLOVIN_INTERSTITIAL",
+  "applovin_rewarded_id": "YOUR_APPLOVIN_REWARDED"
 }
