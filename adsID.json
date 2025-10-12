@@ -1,5 +1,5 @@
 {
-  "admob_enabled": true,
+  "admob_enabled": false,
   "admob_interstitial_id": "ca-app-pub-3940256099942544/1033173712",
   "admob_rewarded_id": "ca-app-pub-3940256099942544/5224354917",
   
@@ -15,3 +15,4 @@
   "applovin_interstitial_id": "YOUR_APPLOVIN_INTERSTITIAL",
   "applovin_rewarded_id": "YOUR_APPLOVIN_REWARDED"
 }
+
