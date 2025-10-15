@@ -14,11 +14,11 @@
     },
     "facebook": {
       "name": "facebook", 
-      "enabled": false,
+      "enabled": true,
       "interstitial_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
       "rewarded_id": "VID_HD_9_16_39S_APP_INSTALL#YOUR_PLACEMENT_ID",
       "priority": 2,
-      "show_test_ads": false
+      "show_test_ads": true
     },
     "huawei": {
       "name": "huawei",
@@ -30,13 +30,14 @@
     },
     "applovin": {
       "name": "applovin",
-      "enabled": true,
+      "enabled": false,
       "interstitial_id": "YOUR_APPLOVIN_INTERSTITIAL_ID",
       "rewarded_id": "YOUR_APPLOVIN_REWARDED_ID",
       "priority": 4,
-      "show_test_ads": true
+      "show_test_ads": false
     }
   }
 }
+
 
 
