@@ -9,7 +9,7 @@
       "enabled": true,
       "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
       "rewarded_id": "ca-app-pub-3940256099942544/5224354917",
-      "priority": 4,
+      "priority": 1,
       "show_test_ads": true
     },
     "facebook": {
@@ -33,11 +33,12 @@
       "enabled": true,
       "interstitial_id": "YOUR_APPLOVIN_INTERSTITIAL_ID",
       "rewarded_id": "YOUR_APPLOVIN_REWARDED_ID",
-      "priority": 1,
+      "priority": 4,
       "show_test_ads": true
     }
   }
 }
+
 
 
 
