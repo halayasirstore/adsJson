@@ -1,5 +1,5 @@
 {
-  "ads_enabled": true,
+  "ads_enabled": false,
   "config_version": "1.0",
   "last_updated": "2024-01-15",
   
@@ -18,7 +18,7 @@
       "interstitial_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
       "rewarded_id": "VID_HD_9_16_39S_APP_INSTALL#YOUR_PLACEMENT_ID",
       "priority": 2,
-      "show_test_ads": true
+      "show_test_ads": false
     },
     "huawei": {
       "name": "huawei",
@@ -38,6 +38,7 @@
     }
   }
 }
+
 
 
 
