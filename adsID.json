@@ -6,7 +6,7 @@
   "networks": {
     "admob": {
       "name": "admob",
-      "enabled": true,
+      "enabled": false,
       "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
       "rewarded_id": "ca-app-pub-3940256099942544/5224354917",
       "priority": 1,
@@ -14,7 +14,7 @@
     },
     "facebook": {
       "name": "facebook", 
-      "enabled": true,
+      "enabled": false,
       "interstitial_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
       "rewarded_id": "VID_HD_9_16_39S_APP_INSTALL#YOUR_PLACEMENT_ID",
       "priority": 2,
@@ -22,7 +22,7 @@
     },
     "huawei": {
       "name": "huawei",
-      "enabled": true,
+      "enabled": false,
       "interstitial_id": "testy63txaom86",
       "rewarded_id": "testx9dtjwj8hp", 
       "priority": 3,
@@ -38,3 +38,4 @@
     }
   }
 }
+
