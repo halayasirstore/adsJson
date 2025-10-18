@@ -1,9 +1,9 @@
  {
   "ad_units": {
     "app_id": "ca-app-pub-3940256099942544~3347511713",
-    "banner": "",
+    "banner": "ca-app-pub-3940256099942544/6300978111",
     "interstitial": "ca-app-pub-3940256099942544/1033173712",
-    "rewarded": "",
+    "rewarded": "ca-app-pub-3940256099942544/5224354917",
     "native": "ca-app-pub-3940256099942544/2247696110"
   },
   "test_ids": {
@@ -17,9 +17,8 @@
     "meta_interstitial": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
     "meta_rewarded": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"
   },
-  "enabled": true
-} //ca-app-pub-3940256099942544/5224354917
-//ca-app-pub-3940256099942544/6300978111
+  "enabled": false
+}
 
 
 
