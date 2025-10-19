@@ -23,10 +23,10 @@
   },
   "huawei_ad_units": {
     "app_id": "your_huawei_app_id",
-    "banner": "your_huawei_banner_id",
-    "interstitial": "your_huawei_interstitial_id",
-    "rewarded": "your_huawei_rewarded_id",
-    "native": "your_huawei_native_id"
+    "banner": "testw6vs28auh3d",
+    "interstitial": "testb4znbuh3n2",
+    "rewarded": "testx9dtjwj8hp",
+    "native": "testy63txaom86"
   },
   "huawei_test_ids": {
     "banner": "testw6vs28auh3",
@@ -36,3 +36,4 @@
   },
   "enabled": true
 }
+
