@@ -2,14 +2,14 @@
   "ad_units": {
     "app_id": "",
     "banner": "",
-    "interstitial": "ca-app-pub-2906682096629117/5803368938",
-    "rewarded": "ca-app-pub-2906682096629117/6785278114",
+    "interstitial": "",
+    "rewarded": "",
     "native": ""
   },
   "test_ids": {
     "admob_banner": "",
-    "admob_interstitial": "ca-app-pub-2906682096629117/5803368938",
-    "admob_rewarded": "ca-app-pub-2906682096629117/6785278114",
+    "admob_interstitial": "",
+    "admob_rewarded": "",
     "applovin_banner": "test_banner_applovin",
     "applovin_interstitial": "test_interstitial_applovin",
     "applovin_rewarded": "test_rewarded_applovin",
@@ -36,5 +36,6 @@
   },
   "enabled": true
 }
+
 
 
