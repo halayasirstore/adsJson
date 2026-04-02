@@ -7,9 +7,9 @@
     "native": ""
   },
   "test_ids": {
-    "admob_banner": "",
-    "admob_interstitial": "",
-    "admob_rewarded": "",
+    "admob_banner": "ca-app-pub-3940256099942544/6300978111",
+    "admob_interstitial": "ca-app-pub-3940256099942544/1033173712",
+    "admob_rewarded": "ca-app-pub-3940256099942544/5224354917",
     "applovin_banner": "test_banner_applovin",
     "applovin_interstitial": "test_interstitial_applovin",
     "applovin_rewarded": "test_rewarded_applovin",
