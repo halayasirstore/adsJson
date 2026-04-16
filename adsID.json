@@ -7,11 +7,11 @@
     "native": ""
   },
   "test_ids": {
-    "admob_banner": "ca-app-pub-3940256099942544/6300978111",
-    "admob_interstitial": "ca-app-pub-3940256099942544/1033173712",
-    "admob_rewarded": "ca-app-pub-3940256099942544/5224354917",
-    "applovin_banner": "test_banner_applovin",
-    "applovin_interstitial": "test_interstitial_applovin",
+    "admob_banner": "ca-app-pub-2906682096629117/9627037219",
+    "admob_interstitial": "ca-app-pub-2906682096629117/2922041371",
+    "admob_rewarded": "ca-app-pub-2906682096629117/6342411634",
+    "applovin_banner": "",
+    "applovin_interstitial": "",
     "applovin_rewarded": "test_rewarded_applovin",
     "meta_banner": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
     "meta_interstitial": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
@@ -22,10 +22,10 @@
     "huawei_native": "testy63txaom86"
   },
   "huawei_ad_units": {
-    "app_id": "your_huawei_app_id",
-    "banner": "your_huawei_banner_id",
-    "interstitial": "your_huawei_interstitial_id",
-    "rewarded": "your_huawei_rewarded_id",
+    "app_id": "",
+    "banner": "",
+    "interstitial": "",
+    "rewarded": "",
     "native": "your_huawei_native_id"
   },
   "huawei_test_ids": {
